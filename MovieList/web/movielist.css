@@ -25,3 +25,37 @@ h1, p {
   text-align: center;
   margin-top: 140px;
 }
+
+#details{
+  background-color: #fff;
+  width: 50%;
+  height: 200px;
+  border: 1px solid #ccc;
+}
+
+#inputArea{
+  margin: 10px;
+  background-color: #F8F8F8;
+  border: 1px solid #000;
+  border-radius: 0.5em;
+}
+
+#movieTable{
+  margin: 10px;
+  border: 1px solid #000;
+}
+
+
+#head{
+ 
+}
+
+#desc{
+  
+  
+}
+
+#img{
+  
+  
+}

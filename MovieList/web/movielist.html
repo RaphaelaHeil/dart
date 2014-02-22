@@ -12,8 +12,32 @@
     <p>Hello world from Dart!</p>
     
     <div id="sample_container_id">
-      <p id="sample_text_id"></p>
+      <div id="inputArea">
+      <input id="title" type="text" placeholder="Titel">
+      <input id="filter" type="text" placeholder="Filter">
+      </div>
+       <div>
+     <table id="movieTable">
+     <thead>
+      <tr>
+        <th>Title</th>
+        <th>Year</th>
+      </tr>
+      </thead>
+      <tbody>
+      </tbody>
+     </table>
     </div>
+    <div id="details">
+    <span id="head"></span>
+    <span id="desc"></span>
+    <span id="img"></span>
+    </div>
+    
+      
+    </div>
+   
+   
 
     <script type="application/dart" src="movielist.dart"></script>
     <script src="packages/browser/dart.js"></script>
