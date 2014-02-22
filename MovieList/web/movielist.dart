@@ -1,9 +1,21 @@
 import 'dart:html';
+import 'dart:convert';
+import 'client.dart';
 
 void main() {
   querySelector("#sample_text_id")
     ..text = "Click me!"
     ..onClick.listen(reverseText);
+  
+  var client = new Client();
+  
+  //client.getMovies();
+  
+  //var request = {
+  // 'request': 'search',
+  // 'input': 'title'
+  //};
+  //client.webSocket.send(JSON.encode(request));
 }
 
 void reverseText(MouseEvent event) {
